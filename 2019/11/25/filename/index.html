@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Flutter_html插件使用 | Abeiv个人博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  <meta name="description" content="Flutter_html插件地址添加依赖项    打开 pubspec.yml 添加 : 12dependencies:	flutter_html: ^0.11.0 然后执行 flutter pub git 获取依赖项 再 dart 文件中引入包 1import &amp;apos;package:flutter_html&#x2F;flutter_html.dart&amp;apos;;  目前支持的 html标签    a, abbr,">
+<meta name="keywords" content="flutter,html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Flutter_html插件使用">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;25&#x2F;filename&#x2F;index.html">
+<meta property="og:site_name" content="Abeiv个人博客">
+<meta property="og:description" content="Flutter_html插件地址添加依赖项    打开 pubspec.yml 添加 : 12dependencies:	flutter_html: ^0.11.0 然后执行 flutter pub git 获取依赖项 再 dart 文件中引入包 1import &amp;apos;package:flutter_html&#x2F;flutter_html.dart&amp;apos;;  目前支持的 html标签    a, abbr,">
+<meta property="og:locale" content="zh-tw">
+<meta property="og:updated_time" content="2019-11-25T03:55:31.959Z">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Abeiv个人博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/1.jpg">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/highlight.css">
+</head>
+
+<body>
+  <div id="fullpage" class="mobile-nav-right">
+    
+      <div id="wrapper" title="图片来自网络">
+    
+    
+      <header id="header">
+  <div id="nav-toggle" class="nav-toggle"></div>
+  <div class="head-box global-width">
+    <nav class="nav-box nav-right">
+      
+        <a class="nav-item" href="/" title
+        
+        >首页</a>
+      
+        <a class="nav-item" href="/archives" title
+        
+        >归档</a>
+      
+    </nav>
+  </div>
+</header>
+      <div id="middlecontent" title class="global-width sidebar-right">
+        <section id="main"><article id="post-filename" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 class="article-title" itemprop="name">
+      Flutter_html插件使用
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2019/11/25/filename/" class="article-date">
+  <time datetime="2019-11-25T08:52:48.103Z" itemprop="datePublished">2019-11-25</time>
+</a>
+    
+    
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/flutter-html/" rel="tag">flutter,html</a></li></ul>
+
+  </div>
+  
+    <span id="busuanzi_container_page_pv">
+      本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+    </span>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <p><a href="https://pub.dev/packages/flutter_html" target="_blank" rel="noopener">Flutter_html插件地址</a><br>添加依赖项<br>    打开 <code>pubspec.yml</code> 添加 :</p>
+<div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="DART"><figure class="iseeu highlight /dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dependencies:</span><br><span class="line">	flutter_html: ^<span class="number">0.11</span><span class="number">.0</span></span><br></pre></td></tr></table></figure></div>
+<p>然后执行 <code>flutter pub git</code> 获取依赖项</p>
+<p>再 <code>dart</code> 文件中引入包</p>
+<div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="DART"><figure class="iseeu highlight /dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'package:flutter_html/flutter_html.dart'</span>;</span><br></pre></td></tr></table></figure></div>
+
+<p>目前支持的 <code>html标签</code>  </p>
+<blockquote>
+<p>a, abbr, acronym, address, article, aside, b, bdi, bdo, big, blockquote, body, br, caption, cite, code, data, dd, del, dfn, div, dl, dt, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, hr, i, img, ins, kbd, li, main, mark, nav, noscript, ol, p, pre, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, sup, table, tbody, td, template, tfoot, th, thead, time, tr, tt, u, ul, var</p>
+</blockquote>
+<p>使用示例</p>
+<div class="highlight-box"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="DART"><figure class="iseeu highlight /dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">Html(</span><br><span class="line">  data: <span class="string">"""</span></span><br><span class="line"><span class="string">    &lt;div&gt;</span></span><br><span class="line"><span class="string">      &lt;h1&gt;Demo Page&lt;/h1&gt;</span></span><br><span class="line"><span class="string">      &lt;p&gt;This is a fantastic nonexistent product that you should buy!&lt;/p&gt;</span></span><br><span class="line"><span class="string">      &lt;h2&gt;Pricing&lt;/h2&gt;</span></span><br><span class="line"><span class="string">      &lt;p&gt;Lorem ipsum &lt;b&gt;dolor&lt;/b&gt; sit amet.&lt;/p&gt;</span></span><br><span class="line"><span class="string">      &lt;h2&gt;The Team&lt;/h2&gt;</span></span><br><span class="line"><span class="string">      &lt;p&gt;There isn't &lt;i&gt;really&lt;/i&gt; a team...&lt;/p&gt;</span></span><br><span class="line"><span class="string">      &lt;h2&gt;Installation&lt;/h2&gt;</span></span><br><span class="line"><span class="string">      &lt;p&gt;You &lt;u&gt;cannot&lt;/u&gt; install a nonexistent product!&lt;/p&gt;</span></span><br><span class="line"><span class="string">      &lt;!--You can pretty much put any html in here!--&gt;</span></span><br><span class="line"><span class="string">    &lt;/div&gt;</span></span><br><span class="line"><span class="string">  """</span>,</span><br><span class="line">  <span class="comment">//设置样式:</span></span><br><span class="line">  padding: EdgeInsets.all(<span class="number">8.0</span>),</span><br><span class="line">  backgroundColor: Colors.white70,</span><br><span class="line">  defaultTextStyle: TextStyle(fontFamily: <span class="string">'serif'</span>),</span><br><span class="line">  linkStyle: <span class="keyword">const</span> TextStyle(</span><br><span class="line">    color: Colors.redAccent,</span><br><span class="line">  ),</span><br><span class="line">  onLinkTap: (url) &#123;</span><br><span class="line">    <span class="comment">// 点击 html 中 a 标签链接触发</span></span><br><span class="line">  &#125;,</span><br><span class="line">  onImageTap: (src) &#123;</span><br><span class="line">    <span class="comment">// 点击 图片 触发.</span></span><br><span class="line">  &#125;,</span><br><span class="line">)</span><br></pre></td></tr></table></figure></div>
+      
+    </div>
+    
+      <footer class="article-footer">
+        完
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  <div class="article-nav-block">
+    
+  </div>
+  <div class="article-nav-block">
+    
+      <a href="/2019/11/25/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+        <div class="article-nav-title">Hello World</div>
+        <strong class="article-nav-caption"></strong>
+      </a>
+    
+  </div>
+</nav>
+
+    <link rel="stylesheet" href="/css/gitment.css"> 
+<script src="/js/gitment.js"></script>
+
+<div id="gitmentContainer"></div>
+
+<script>
+var gitment = new Gitment({
+  owner: '',
+  repo: '',
+  oauth: {
+    client_id: '',
+    client_secret: '',
+  },
+})
+gitment.render('gitmentContainer')
+</script>
+
+  
+  
+</article>
+</section>
+        <aside id="sidebar">
+  
+    <div class="widget-box">
+  <div class="avatar-box">
+    <img class="avatar" src="/1.jpg" title="图片来自网络"></img>
+    <h3 class="avatar-name">
+      
+        Abeiv
+      
+    </h3>
+    <p class="avatar-slogan">
+      一个渣渣，月牙姐姐天下第一可爱。
+    </p>
+  </div>
+</div>
+
+
+  
+    
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/flutter-html/" rel="tag">flutter,html</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/flutter-html/" style="font-size: 10px;">flutter,html</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/11/25/filename/">Flutter_html插件使用</a>
+          </li>
+        
+          <li>
+            <a href="/2019/11/25/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+      <div class="widget-box">
+    <h3 class="widget-title">友链</h3>
+    <div class="widget">
+      
+        <a style="display: block;" href="https://yiluyanxia.github.io/" title target='_blank'
+        >一路眼瞎</a>
+      
+    </div>
+  </div>
+
+  
+</aside>
+      </div>
+      <footer id="footer">
+  <div class="foot-box global-width">
+    &copy; 2019 Abeiv &nbsp;&nbsp;
+    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    &nbsp;|&nbsp;主题 <a href="https://github.com/yiluyanxia/hexo-theme-antiquity" target="_blank" rel="noopener">antiquity</a>
+    <br>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">不蒜子告之   阁下是第<span id="busuanzi_value_site_pv"></span>个访客</span>
+  </div>
+</footer>
+      <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script>
+if (!window.jQuery) {
+var script = document.createElement('script');
+script.src = "/js/jquery-2.0.3.min.js";
+document.body.write(script);
+}
+</script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+    </div>
+    <nav id="mobile-nav" class="mobile-nav-box">
+  <div class="mobile-nav-img mobile-nav-top"></div>
+  
+    <a href="/" class="mobile-nav-link">首页</a>
+  
+    <a href="/archives" class="mobile-nav-link">归档</a>
+  
+  <div class="mobile-nav-img  mobile-nav-bottom"></div>
+</nav>    
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/z16.model.json"},"display":{"position":"right","width":185,"height":365},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8,"opacity":0.6},"log":false});</script></body>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
+</html>
