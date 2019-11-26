@@ -181,7 +181,7 @@ html, body, #fullpage{
   /* display: none; */
 }
 #wrapper {
-  background-image: url('../images/bg1.png');
+  background-image: url('http://ambcc-shop.test.upcdn.net/blog/bg1.png');
   background-color: #C7C9EA;
   background-repeat: no-repeat;
   background-attachment: fixed;
