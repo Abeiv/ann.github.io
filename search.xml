@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>pixiv批量下载工具</title>
+    <url>/2019/12/06/pikax/</url>
+    <content><![CDATA[<h2 id="Pikax"><a href="#Pikax" class="headerlink" title="Pikax"></a>Pikax</h2><p> 下载地址：</p>
+<blockquote>
+<p><a href="http://ambcc-shop.test.upcdn.net/blog/Pikax%200.1.9.exe" target="_blank" rel="noopener">点击下载</a><br><a href="http://ambcc-shop.test.upcdn.net/blog/Pikax%200.1.9.exe" target="_blank" rel="noopener">http://ambcc-shop.test.upcdn.net/blog/Pikax%200.1.9.exe</a>   </p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>pixiv,python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HttpClient  400</title>
     <url>/2019/12/06/httpclient400/</url>
-    <content><![CDATA[<p>##HttpClient 发起网络请求 出现400</p>
-<p>解决：</p>
+    <content><![CDATA[<h2 id="HttpClient-发起网络请求-出现400"><a href="#HttpClient-发起网络请求-出现400" class="headerlink" title="HttpClient 发起网络请求 出现400"></a>HttpClient 发起网络请求 出现400</h2><p>解决：</p>
 <blockquote>
 <p>使用 URLEncoder.encode(“中文”, “utf-8”)</p>
 </blockquote>
