@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>HttpClient  400</title>
+    <url>/2019/12/06/httpclient400/</url>
+    <content><![CDATA[<p>##HttpClient 发起网络请求 出现400</p>
+<p>解决：</p>
+<blockquote>
+<p>使用 URLEncoder.encode(“中文”, “utf-8”)</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>http</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>美团面试常见问题总结</title>
     <url>/2019/11/27/%E7%BE%8E%E5%9B%A2%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<ul>
