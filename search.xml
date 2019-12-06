@@ -9,7 +9,8 @@
 </blockquote>
 ]]></content>
       <tags>
-        <tag>pixiv,python</tag>
+        <tag>pixiv</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -22,6 +23,7 @@
 ]]></content>
       <tags>
         <tag>http</tag>
+        <tag>400</tag>
       </tags>
   </entry>
   <entry>
@@ -614,7 +616,8 @@
 <p><a href="https://github.com/Snailclimb/JavaGuide/commit/6e286c68974f71ba008532b35291a0d287107e14#diff-82afb3f12840aa5dee16173b05f482d2" target="_blank" rel="noopener">原文链接</a></p>
 ]]></content>
       <tags>
-        <tag>java,面试题</tag>
+        <tag>java</tag>
+        <tag>面试题</tag>
       </tags>
   </entry>
   <entry>
@@ -647,7 +650,9 @@
 <p>ok,项目跑起来 完毕</p>
 ]]></content>
       <tags>
-        <tag>flutter,barcode_scan,插件</tag>
+        <tag>flutter</tag>
+        <tag>barcode_scan</tag>
+        <tag>插件</tag>
       </tags>
   </entry>
   <entry>
@@ -670,7 +675,9 @@
 <p>^[注意： 如果虚拟机名称有空格要用下划线代替]</p>
 ]]></content>
       <tags>
-        <tag>android,avd,虚拟机</tag>
+        <tag>android</tag>
+        <tag>avd</tag>
+        <tag>虚拟机</tag>
       </tags>
   </entry>
   <entry>
